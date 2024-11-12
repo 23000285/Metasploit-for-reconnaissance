@@ -24,53 +24,53 @@ Open terminal and try execute some kali linux commands
 
 Find out the ip address of the attackers system
 ### OUTPUT:
-![alt text](screenshot/image.png)
+![alt text](image.png)
 
 
 ## Invoke msfconsole
 ### OUTPUT:
-![alt text](screenshot/image1.png)
+![alt text](image1.png)
 
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
-![alt text](screenshot/image2.png)
+![alt text](image2.png)
 
 ## Port scanning:
 ### msf > nmap -sT 192.168.1810/24-p1-1000
-![alt text](screenshot/image3.png)
+![alt text](image3.png)
 
 ### msf > db_nmap 192.168.181.0/24
-![alt text](screenshot/image4.png)
+![alt text](image4.png)
 
 ### kali > ls-l
-![alt text](screenshot/image5.png)
+![alt text](image5.png)
 
 ### search 
-![alt text](screenshot/image6.png)
+![alt text](image6.png)
 
 ### info
-![alt text](screenshot/image7.png)
+![alt text](image7.png)
 
 ## MYSQL ENUMERATION
 ### db_nmap -sV -sC -p 3306 <metasploitable_ip_address>
-![alt text](screenshot/image8.png)
+![alt text](image8.png)
 
 ### search
-![alt text](<screenshot/Screenshot 2024-10-09 080509.png>)
+![alt text](<Screenshot 2024-10-09 080509.png>)
 
 ###  use 11 Or: use auxiliary/scanner/mysql/mysql_version
-![alt text](<screenshot/Screenshot 2024-10-09 080520.png>)
+![alt text](<Screenshot 2024-10-09 080520.png>)
 
 ### Use the set rhosts command to set the parameter and run the module, as follows:
-![alt text](<screenshot/Screenshot 2024-10-09 080536.png>)
+![alt text](<Screenshot 2024-10-09 080536.png>)
 
 ### After scanning, you can also brute force MySQL root account via Metasploit's auxiliary(scanner/mysql/mysql_login) module.
-![alt text](<screenshot/Screenshot 2024-10-09 080550.png>)
+![alt text](<Screenshot 2024-10-09 080550.png>)
 
 ### /usr/share/wordlists: set PASS_FILE /usr/share/wordlistss/rockyou.txt 
-![alt text](<screenshot/Screenshot 2024-10-09 080614.png>)
+![alt text](<Screenshot 2024-10-09 080614.png>)
 
-![alt text](<screenshot/Screenshot 2024-10-09 080629.png>)
+![alt text](<Screenshot 2024-10-09 080629.png>)
 
 ## RESULT:
 The Metasploit framework for reconnaissance is  examined successfully
